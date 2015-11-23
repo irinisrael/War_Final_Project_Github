@@ -1,0 +1,124 @@
+body {
+    background-color: lightgrey;
+    color: navy;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* Two columns */
+
+.columns {
+    text-align: center;
+}
+
+#column-one {
+    width: 30%;
+    margin: 2%;
+    float: left;
+    clear: left;
+}
+
+#column-two {
+    width: 60%;
+    margin: 2%;
+    float: left;
+    clear: right;
+    border: 5px solid green;
+}
+
+
+/* All three buttons */
+
+button {
+    display: inline-block -webkit-appearance: none;
+    background-color: green;
+    color: lightgrey;
+    padding: 16px 24px;
+    font-size: 24px;
+    border-radius: 12px;
+    border: 0;
+    margin: 20px;
+}
+
+.deal {
+    margin-top: 20px;
+}
+
+.warrior,
+.players {
+    font-size: 24px;
+    margin: 50px;
+}
+
+.cardsAmount {
+    font-size: 20px;
+    margin: 50px;
+}
+
+.cards {
+    font-size: 48px;
+    margin: 50px;
+}
+
+.warCards1,
+.warCards2,
+.warCards3,
+.warCards4,
+.warCardsTwo1,
+.warCardsTwo2,
+.warCardsTwo3,
+.warCardsTwo4,
+.warCardsThree1,
+.warCardsThree2,
+.warCardsThree3,
+.warCardsThree4 {
+    font-size: 24px;
+    margin: 50px;
+    color: black;
+}
+
+.finalWarCards,
+.finalWarCardsTwo,
+.finalWarCardsThree {
+    font-size: 48px;
+    margin: 50px;
+}
+
+
+/*cell*/
+
+@media all and (max-width: 480px) {
+    .players {
+        font-size: 16px;
+        margin: 50px;
+    }
+    .cardsAmount {
+        font-size: 14px;
+        margin: 50px;
+    }
+    .cards {
+        font-size: 36px;
+        margin: 50px;
+    }
+    .warCards1,
+    .warCards2,
+    .warCards3,
+    .warCards4,
+    .warCardsTwo1,
+    .warCardsTwo2,
+    .warCardsTwo3,
+    .warCardsTwo4,
+    .warCardsThree1,
+    .warCardsThree2,
+    .warCardsThree3,
+    .warCardsThree4 {
+        font-size: 18px;
+        margin: 50px;
+    }
+    .finalWarCards,
+    .finalWarCardsTwo,
+    .finalWarCardsThree {
+        font-size: 36px;
+        margin: 50px;
+    }
+}
